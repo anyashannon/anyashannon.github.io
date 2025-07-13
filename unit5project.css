@@ -1,7 +1,33 @@
 body {
     background-color: rgb(64, 16, 109);
-    color: rgb(234, 170, 255)
     h1, h2, h3 {
         text-align: center;
     }
+    #wrapper {
+        width: 80%;
+        margin: auto;
+        background-color: rgb(50, 145, 50);
+        box-shadow: 15px 15px;
+    }
+    div {
+        width: 90%;
+        margin: auto;
+    }
+    .itembox {
+        border: 2px solid;
+        border-radius: 20px;
+        box-shadow: 5px 5px;
+        background-color: aliceblue;
+        color: black;
+        padding: 10px
+    }
+    .favorite {
+        border: 2px dotted;
+        border-radius: 20px;
+        box-shadow: 5px 5px;
+        background-color: rgb(66, 139, 203);
+        color: rgb(255, 255, 255);
+        padding: 10px
+    }
+
 }
