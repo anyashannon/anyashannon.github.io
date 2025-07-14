@@ -29,5 +29,8 @@ body {
         color: rgb(255, 255, 255);
         padding: 10px
     }
+    ol li {
+        list-style-type: lower-roman;
+    }
 
 }
