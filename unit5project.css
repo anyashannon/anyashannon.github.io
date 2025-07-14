@@ -1,13 +1,16 @@
 body {
-    background-color: rgb(64, 16, 109);
+    background-color: rgb(252, 213, 241);
     h1, h2, h3 {
         text-align: center;
     }
     #wrapper {
         width: 80%;
         margin: auto;
-        background-color: rgb(50, 145, 50);
-        box-shadow: 15px 15px;
+        background-color: rgb(255, 165, 224);
+        box-shadow: 5px 5px rgb(165, 79, 135);
+    }
+    h1 {
+        color:rgb(78, 28, 97)
     }
     div {
         width: 90%;
@@ -17,16 +20,16 @@ body {
         border: 2px solid;
         border-radius: 20px;
         box-shadow: 5px 5px;
-        background-color: aliceblue;
-        color: black;
+        background-color: rgb(222, 179, 255);
+        color: rgb(78, 28, 97);
         padding: 10px
     }
     .favorite {
         border: 2px dotted;
         border-radius: 20px;
         box-shadow: 5px 5px;
-        background-color: rgb(66, 139, 203);
-        color: rgb(255, 255, 255);
+        background-color: rgb(78, 28, 97);
+        color: rgb(222, 179, 255);
         padding: 10px
     }
     ol li {
@@ -45,12 +48,12 @@ body {
     li a {
         display: block;
         padding: 10px;
-        background-color: bisque;
-        color: green;
+        background-color:rgb(38, 7, 50);
+        color: rgb(222, 179, 255);
         text-decoration: none;
     }
     li a:hover {
-        background-color: blueviolet;
+        background-color:rgb(78, 28, 97);
         color: white;
     }
 
