@@ -32,5 +32,20 @@ body {
     ol li {
         list-style-type: lower-roman;
     }
+    ul li.int {
+        list-style-type: circle;
+    }
+    ul.navbar {
+        list-style-type: none;
+        overflow: hidden;
+    }
+    li.nav {
+        float: left;
+    }
+    li a {
+        display: block;
+        padding: 10px;
+        background-color: bisque;
+    }
 
 }
