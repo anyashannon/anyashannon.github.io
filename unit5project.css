@@ -46,6 +46,12 @@ body {
         display: block;
         padding: 10px;
         background-color: bisque;
+        color: green;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: blueviolet;
+        color: white;
     }
 
 }
