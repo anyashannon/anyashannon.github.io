@@ -1,0 +1,22 @@
+body {
+    background-image: url("snow.jpg");
+    background-size: cover;
+
+    #borderimg {
+        background-color: blue;
+        color: aliceblue;
+    }
+    #wrapper {
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    ul {
+        list-style-image: url(caticon.svg);
+    }
+    .specialborder {
+        border: 10px solid;
+        padding: 15px
+        border-image: url("images/m2.png") 30 round;
+    }
+}
