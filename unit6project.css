@@ -15,8 +15,8 @@ body {
         list-style-image: url(caticon.svg);
     }
     .specialborder {
-        border: 10px solid;
-        padding: 15px
-        border-image: url("images/m2.png") 30 round;
+        border-width: 20px
+        border-style: solid;
+        border-image: url('border2.png') 30 round;
     }
 }
