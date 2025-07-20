@@ -1,9 +1,9 @@
 body {
-    background-image: url("snow.jpg");
+    background-image: url("pinkbg.jpg");
     background-size: cover;
 
     #borderimg {
-        background-color: blue;
+        background-color: rgb(255, 108, 164);
         color: aliceblue;
     }
     #wrapper {
