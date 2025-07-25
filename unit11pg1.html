@@ -4,7 +4,7 @@
         <title>Unit 11 Page 1</title>
     </head>
     <body>
-        <h1>Heading</h1>
+        <h1>Page 1</h1>
         <form action="http://webdevbasics.net/scripts/demo.php " method="post">
             <label for="user">Username</label>
             <input type="text" id="user" name="user" maxlength="30"><br>
@@ -76,7 +76,12 @@
                 <br>
                 <label for="zipcode">Zip code</label>
                 <input type="text" id="zipcode" name="zipcode">
-            </fieldset>
+            </fieldset><br>
+            <label for="pword">Password</label>
+            <input type="password" id="pword" name="pword"><br>
+
+            <input type="hidden" name="userid" value="1234"><br>
+            <input type="submit" value="Submit Feedback">
         </form>
     </body>
 </html>
