@@ -1,0 +1,27 @@
+body {
+    display: none;
+}
+
+header, #center {
+    display: block;
+}
+
+img {
+    display: none !important;
+}
+
+body {
+    font-size: 1.25em;
+    background-color: white !important;
+    color: black !important;
+}
+
+header, #center {
+    background-color: white !important;
+    color: black !important;
+}
+
+a: ::after {
+    content: " (" attr(href) ")";
+    font-size: 0.9em;
+}
